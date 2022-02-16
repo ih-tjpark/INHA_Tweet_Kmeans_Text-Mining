@@ -14,11 +14,11 @@ from wordcloud import WordCloud
 
 
 # 트위터 API에서 발급 받은 key 입력
-consumer_key= "tGE47oiGXg0e87OtfVsIJ71M6"
-consumer_secret = "s6Ch6YvGzjDc1urvKNvLEF11GqSal2eEgMiZbUefKx8mA6x8Ri"
-access_token = "1396298045726203911-gWWk9KOdOVVQh407PZsh4JDeQwz61l"
-access_token_secret = "ZSquyrsw6mnettLkstxNCVZZwXCEVdum7cSSZ4eVRuuGM"
-bearer_Token = "AAAAAAAAAAAAAAAAAAAAAIJEQAEAAAAAAK0yd0vqKTEdip1n1a7N1dTft3E%3D9eGo1HBWono87XpJ5hGwztwDWb9ttywGgMyfvbaTVAg5gbtfR6"
+consumer_key= ""
+consumer_secret = ""
+access_token = ""
+access_token_secret = ""
+bearer_Token = ""
 
 
 # 한글 토크나이저 사전 위치
