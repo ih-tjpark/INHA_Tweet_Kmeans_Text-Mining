@@ -65,8 +65,7 @@ def get_tweets(keyword,num):
         print(n, tw.text)
         tweet_list.append(tw.text)
         n = n + 1
-    return tweet_list
-'''
+
     mecab_doc = np.empty([])
     for i in range(len(tweet_list)):
         sentence = ' '.join(preprocessing_mecab(tweet_list[i]))
@@ -74,7 +73,7 @@ def get_tweets(keyword,num):
         mecab_doc = np.append(mecab_doc, sentence)
     print(mecab_doc)
     return mecab_doc
-'''
+
 
 # 텍스트 클리닝
 def CleanText(readData, Num=False, Eng=False):
